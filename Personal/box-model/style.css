@@ -1,0 +1,44 @@
+
+.span{
+    color: #ff8c00;
+    display: block;
+    border: 5px red solid;
+}
+
+.one{
+    background-color: blue;
+    border: 5px rgb(32, 118, 55) solid;
+}
+
+.two{
+    background-color: red;
+    margin-top: 10px;
+}
+
+.links{
+    border: 5px red solid;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+}
+
+.links a{
+    /* this makes the clickable part of the link bigger */
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: #ff8c00;
+    color: white;
+}
+
+.scroll{
+    padding: 500px;
+}

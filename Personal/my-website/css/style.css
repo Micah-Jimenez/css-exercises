@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(255, 255, 255, 0.267);
+    color: #555;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0;
+    letter-spacing: 1.25px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #FFBB9C;
+    color: white;
+}
+
+#navbar{
+    background-color: #333;
+    columns: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: #c9c9c9;
+}
+
+#showcase{
+    background-image: url(https://img.freepik.com/premium-photo/abstract-fluid-art-background-light-coral-colors-liquid-marble-acrylic-painting-canvas-with-peach-gradient-splash_113767-3984.jpg?w=2000);
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 0px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#footer-parent{
+    position: relative;
+    margin-top: 100px;
+}
+
+#main-footer{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 0 20px;
+    margin-top: 40px;
+    text-align:left;
+    /*note to self:
+    figure out why there is a small
+    space inbetween the header and the
+    bottom of the page, on mobile*/
+}
+
+@media(max-width:600px){
+
+    #main{
+        width: 100%;
+        float: none;  
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
